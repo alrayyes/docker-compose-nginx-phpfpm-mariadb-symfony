@@ -12,8 +12,7 @@ before_install:
   - sudo mv docker-compose /usr/local/bin
   - docker-compose -v
   - docker -v
-  - mkdir symfony
-
+  
 script:
   - docker-compose up -d
   - docker-compose ps
