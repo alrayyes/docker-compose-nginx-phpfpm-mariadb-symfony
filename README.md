@@ -1,5 +1,7 @@
 # Docker Compose Nginx Phpfpm Mariadb Symfony
 
+[![Build Status](https://travis-ci.org/alrayyes/docker-compose-nginx-phpfpm-mariadb-symfony.svg?branch=master)](https://travis-ci.org/alrayyes/docker-compose-nginx-phpfpm-mariadb-symfony)
+
 Everything you need to get [Symfony](https://symfony.com/) apps running in [Docker](https://www.docker.com/).
 
 # Requirements
