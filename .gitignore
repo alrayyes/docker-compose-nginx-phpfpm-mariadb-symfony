@@ -1,2 +1,4 @@
 www/*
+!www/.keep
 logs/*
+!logs/.keep
