@@ -1,4 +1,4 @@
-# Docker Compose Nginx Phpfpm Mariadb Symfony
+# Docker Compose Nginx Phpfpm Mariadb Wkhtmltopdf Xdebug Symfony
 
 [![Build Status](https://travis-ci.org/alrayyes/docker-compose-nginx-phpfpm-mariadb-symfony.svg?branch=master)](https://travis-ci.org/alrayyes/docker-compose-nginx-phpfpm-mariadb-symfony)
 
@@ -16,7 +16,9 @@ Included are the following:
 
 - [Nginx:stable-alpine](https://hub.docker.com/_/nginx/)
 - [php:fpm-alpine](https://hub.docker.com/_/php/)
+- [Xdebug](https://xdebug.org/)
 - [Mariadb](https://hub.docker.com/_/mariadb/)
+- [Wkhtmltopdf](https://wkhtmltopdf.org/)
 
 # Usage
 

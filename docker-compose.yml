@@ -13,6 +13,8 @@ services:
             - php-fpm
     php-fpm:
         build: php-fpm
+        environment:
+            XDEBUG_CONFIG: remote_host=192.168.4.1
         volumes:
             - ./www:/var/www
         depends_on:
@@ -25,4 +27,4 @@ services:
             - "3306:3306"
         environment:
             - MYSQL_ALLOW_EMPTY_PASSWORD=true
-            - MYSQL_DATABASE=symfony
+            - MYSQL_DATABASE=retail
